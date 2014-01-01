@@ -1,0 +1,258 @@
+body{
+	background-color: #e8dccf;
+	font-family: "Proxima Nova", "Avenir", "Futura", "Helvetica Neue", sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+body a{
+	color: #005b7f;
+}
+
+body a:hover{
+	color: #323232;
+}
+
+.container{
+	max-width: 960px;
+	width: 100%;
+	margin: auto;
+	padding: 0px;
+}
+
+h1{
+	font-family: "Proxima Nova", "Avenir", "Futura", "Helvetica Neue", sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 900;
+	color: #323232;
+	font-size: 100pt;
+	padding: 0px;
+	margin: 80px 0px 0px 0px;
+}
+
+h2{
+	font-family: "Droid Serif", "Proxima Nova", "Avenir", "Futura", "Helvetica Neue", sans-serif;
+	text-align: center;
+	font-weight: 400;
+	color: #777;
+	font-size: 18pt;
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+h3{
+	font-family: "Proxima Nova", "Avenir", "Futura", "Helvetica Neue", sans-serif;
+	text-align: center;
+	font-weight: 700;
+	color: #005b7f;
+	font-size: 20pt;
+	padding: 0px;
+	margin: 25px 0px 0px 0px;
+}
+
+.mc-form{
+	padding: 30px 0px 30px 0px;
+	border-bottom: 2px solid #aaa;
+	border-top: 2px solid #aaa;
+	margin: 30px 0px 0px 0px;
+	background-color: #f4ebe2;
+}
+
+.mc-form h2{
+	font-size: 15pt;
+}
+
+.input-wrapper{
+	max-width: 400px;
+	margin: 30px auto 0px auto;
+}
+
+.sub-wrapper{
+	max-width: 200px;
+	margin: 30px auto 0px auto;
+}
+
+input[type="submit"]{
+	max-width: 200px;
+	min-width: 200px;
+	margin: auto;
+	background-color: #005b7f;
+	border: 0px;
+	padding: 10px;
+	font-size: 15pt;
+	font-weight: 400;
+	color: #fff;
+	font-family: "Proxima Nova", "Avenir", "Futura", "Helvetica Neue", sans-serif;
+}
+
+input[type="submit"]:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+input[type="email"]{
+	max-width: 400px;
+	min-width: 400px;
+	padding: 10px;
+	height: 30px;
+	background-color: transparent;
+	border: 0px;
+	border-bottom: 2px solid #005b7f;
+	margin: auto;
+	font-size: 20pt;
+	font-family: "Droid Serif", "Proxima Nova", "Avenir", "Futura", "Helvetica Neue", sans-serif;
+	color: #777;
+	text-align: center;
+}
+
+footer{
+	margin: 40px 0px 40px 0px;
+}
+
+footer p{
+	text-align: center;
+	font-family: "Proxima Nova", "Avenir", "Futura", "Helvetica Neue", sans-serif;
+	font-size: 12pt;
+	font-weight: 400;
+	color: #777;
+}
+
+footer p span{
+	color: #323232;
+}
+
+@media all and (max-width: 990px){
+
+	h1{
+		font-size: 80pt;
+	}
+
+	h2{
+		font-size: 14pt;
+	}
+
+	h3{
+		font-size: 14pt;
+	}
+
+	.mc-form{
+		margin: 30px auto 0px auto;
+		width: 730px;
+	}
+
+}
+
+@media all and (max-width: 780px){
+
+	h1{
+		font-size: 60pt;
+	}
+
+	h2{
+		font-size: 15pt;
+		max-width: 560px;
+		width: 100%;
+		margin: auto;
+		line-height: 1.5;
+	}
+
+	h3{
+		font-size: 15pt;
+	}
+
+	.mc-form{
+		width: 560px;
+	}
+
+}
+
+@media all and (max-width: 580px){
+
+	h1{
+		font-size: 40pt;
+	}
+
+	h2{
+		font-size: 13pt;
+		max-width: 400px;
+		width: 100%;
+		margin: auto;
+		line-height: 1.5;
+	}
+
+	h3{
+		font-size: 13pt;
+	}
+
+	.mc-form{
+		width: 400px;
+	}
+
+	.input-wrapper{
+		max-width: 200px;
+	}
+
+	input[type="email"]{
+		max-width: 200px;
+		min-width: 200px;
+	}
+
+}
+
+@media all and (max-width: 430px){
+
+	h1{
+		font-size: 30pt;
+		margin: 30px 0px 0px 0px;
+	}
+
+	h2{
+		font-size: 12pt;
+		max-width: 280px;
+		margin: 10px auto 0px auto;
+	}
+
+	h3{
+		font-size: 12pt;
+		margin: 10px auto 0px auto;
+	}
+
+	.mc-form{
+		max-width: 280px;
+		width: 100%;
+	}
+
+	.input-wrapper{
+		max-width: 200px;
+	}
+
+	input[type="email"]{
+		max-width: 200px;
+		min-width: 200px;
+		font-size: 12pt;
+	}
+
+	.mc-form h2{
+		font-size: 12pt;
+	}
+
+	footer p{
+		font-size: 10pt;
+		margin: auto;
+		max-width: 280px;
+		width: 100%;
+		padding: 0px 0px 20px 0px;
+	}
+
+	.sub-wrapper{
+		max-width: 100px;
+	}
+
+	input[type="submit"]{
+		max-width: 100px;
+		min-width: 100px;
+		font-size: 12pt;
+	}
+
+}
